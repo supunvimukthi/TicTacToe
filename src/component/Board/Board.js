@@ -73,7 +73,7 @@ export default class Board extends React.Component {
         let status;
         if (winner) {
             status = 'Winner: ' + winner;
-            ()=>this.clear();
+            this.clear();
         } else {
             this.state.squares.includes(null)?  status = 'Next player: ' + ((this.state.current === 'X') ? 'O' : 'X'):status='Game - Draw '
         }
