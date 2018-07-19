@@ -2,4 +2,4 @@
 
 A simple tic tac toe game web app created using react js.
 
-![Alt text](Capture.png)
+![Alt text](Capture.PNG)
